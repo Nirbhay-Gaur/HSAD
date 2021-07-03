@@ -1,0 +1,48 @@
+.main_wrapper {
+  margin: 5%;
+}
+
+.main_heading {
+  margin-left: 16%;
+}
+.main_heading h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.row_css {
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.row3_div {
+  background-color: #ebebeb;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  margin: 1.5rem;
+}
+
+.row3_div > div > h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #656565;
+}
+
+.row3_div > div > div {
+  margin-bottom: 4%;
+}
+
+.know_more_btn {
+  position: absolute;
+  bottom: -14%;
+  right: 2%;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 425px) {
+  .main_heading h2 {
+    font-size: 1.8rem;
+  }
+}

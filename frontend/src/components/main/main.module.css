@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 3% 0;
+}
+
+.row_2 {
+  margin-top: 5%;
+}
+
+.label {
+  font-size: 1.2rem;
+}
+
+.invoice {
+  padding: 2.3%;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.info {
+  font-size: 0.8rem;
+  color: #b7063f;
+  margin: 3% 0;
+  text-align: center;
+}
+
+.btn {
+  background-color: #920230;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #920230;
+}
+
+.opt_btn:hover {
+  background-color: #a7a5a5;
+}
+
+.opt_btn {
+  padding: 1px 6px;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: #a7a5a5;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.custom_dropdown {
+  position: relative;
+  width: 100%;
+  display: none;
+}
+.custom_dropdown span {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  z-index: 99;
+  border: #a7a5a5 1px solid;
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.custom_dropdown span ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom_dropdown span ul li {
+  padding: 2% 4%;
+}
+
+.custom_dropdown span ul li:hover {
+  cursor: pointer;
+  background-color: #007fff;
+  color: #fff;
+}
+
+@media only screen and (max-width: 425px) {
+  .btn {
+    margin: 2% 0;
+  }
+  .label {
+    font-size: 1rem;
+  }
+}

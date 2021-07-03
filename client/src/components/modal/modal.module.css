@@ -1,0 +1,23 @@
+.modal_header {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.modal_body ul {
+  padding-inline-start: 1rem;
+}
+
+.modal_body ul li {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.modal_body ul li a {
+  color: #a50034;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.modal_body ul li a:hover {
+  text-decoration: none;
+}
